@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">termproject</string>
+    <string name="title_app">RDMD</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_map">Map</string>
+    <string name="title_pet">Pet</string>
+    <string name="title_custom">Custom</string>
+    <string name="title_rank">Rank</string>
+    <string name="title_camera">Camera</string>
+    <string name="main_pet">동물병원</string>
+    <string name="main_map">병원지도</string>
+    <string name="main_custom">맞춤병원</string>
+    <string name="main_rank">우수병원</string>
+    <string name="main_search">내 주변 병원은 어디?</string>
+    <string name="main_camera">진단서검색</string>
+
+    <!-- custom 영역 string -->
+    <string name="seacrchButton">검색</string>
+    <string name="ButtonUser4">응급병원</string>
+    <string name="buttonUser1">산재재활병원</string>
+    <string name="User">맞춤형 사용자</string>
+    <string name="editText1">검색 하고 싶은 위치를 입력</string>
+    <string name="TextUser1">근로자</string>
+    <string name="TextUser2">노약자</string>
+    <string name="TextUser3">소아</string>
+    <string name="TextUser4">응급환자</string>
+    <string name="buttonUser2">요양병원</string>
+    <string name="buttonUser3">야간진료병원</string>
+    <string name="textView">조회 결과</string>
+
+    <!-- rank 영역 string -->
+    <string name="rank_textView">"          우수기관 질병 별 병원 검색"</string>
+    <string name="rank_textView2">1) 평가 항목 선택</string>
+    <string name="rank_button1">암 질환</string>
+    <string name="rank_button2">만성질환</string>
+    <string name="rank_button3">급성질환</string>
+    <string name="rank_textView3">2) 세부 항목 선택</string>
+    <string name="rd_btn1">대장암</string>
+    <string name="rd_btn2">위암</string>
+    <string name="rd_btn3">폐암</string>
+    <string name="rank_textView4">조회 결과</string>
+</resources>

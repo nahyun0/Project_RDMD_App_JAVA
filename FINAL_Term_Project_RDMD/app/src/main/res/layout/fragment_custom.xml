@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/User"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUser"
+        android:layout_weight="1"
+        android:hint="@string/editText1"
+        android:layout_margin="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText1"
+        android:layout_margin="15dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditText1"
+                android:id="@+id/table"
+                android:background="#FFE3EE"
+                android:padding="5dp"
+                android:layout_margin="15dp"
+                >
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="121dp"
+                        android:drawableRight="@drawable/button_workers_custom"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/TextUser1"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/Ueser1"
+                        android:onClick="mOnClick"
+                        android:padding="15dp"
+                        android:text="@string/buttonUser1"
+                        android:layout_marginLeft="15dp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/TextUser2"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:gravity="center"
+                        android:drawableRight="@drawable/button_grandparents_cutom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+
+                    <Button android:id="@+id/Ueser2"
+                        android:text="@string/buttonUser2"
+                        android:padding="15dp"
+                        android:onClick="mOnClick2"
+                        android:layout_marginLeft="15dp"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/TextUser3"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:gravity="center"
+                        android:drawableRight="@drawable/button_kid_custom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+
+                    <Button
+                        android:id="@+id/Ueser3"
+                        android:layout_width="137dp"
+                        android:layout_marginLeft="15dp"
+                        android:onClick="mOnClick3"
+                        android:padding="15dp"
+                        android:text="@string/buttonUser3" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="@string/TextUser4"
+                        android:padding="5dp"
+                        android:layout_width="200dp"
+                        android:gravity="center"
+                        android:drawableRight="@drawable/button_emergency_cutom"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/Ueser4"
+                        android:onClick="mOnClick4"
+                        android:padding="15dp"
+                        android:text="@string/ButtonUser4"
+                        android:layout_marginLeft="15dp"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textView"
+                android:layout_below="@+id/table"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#FFEFD5"/>
+
+
+            <ListView
+                android:layout_below="@+id/textView"
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

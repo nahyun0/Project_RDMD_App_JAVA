@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <solid android:color="#789776"/> <!-- 선택된 상태의 색상 -->
+            <size android:width="8dp" android:height="8dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ADADAD"/> <!-- 선택되지 않은 상태의 색상 -->
+            <size android:width="8dp" android:height="8dp"/>
+        </shape>
+    </item>
+</selector>

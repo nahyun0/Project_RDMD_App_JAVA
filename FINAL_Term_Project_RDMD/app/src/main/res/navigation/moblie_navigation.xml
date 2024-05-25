@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.final_term_project_rdmd.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.example.final_term_project_rdmd.ui.camera.CameraFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.final_term_project_rdmd.ui.home.HomeFragment"
+        android:label="@string/title_app"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_positionFragment"
+            app:destination="@id/positionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/positionFragment"
+        android:name="com.example.final_term_project_rdmd.ui.home.positionFragment"
+        android:label="Web View"
+        tools:layout="@layout/fragment_position" />
+    <fragment
+        android:id="@+id/navigation_custom"
+        android:name="com.example.final_term_project_rdmd.ui.custom.CustomFragment"
+        android:label="@string/title_custom"
+        tools:layout="@layout/fragment_custom" />
+    <fragment
+        android:id="@+id/navigation_rank"
+        android:name="com.example.final_term_project_rdmd.ui.rank.RankFragment"
+        android:label="@string/title_rank"
+        tools:layout="@layout/fragment_rank" />
+</navigation>

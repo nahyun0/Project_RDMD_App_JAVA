@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@drawable/button_camera_round">
+
+    <!-- 여유 공간 -->
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="wrap_content" />
+
+    <!-- 이미지 -->
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ocrbutton_camera_512px"
+        android:scaleType="fitCenter" />
+
+    <!-- 여유 공간 -->
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="wrap_content" />
+
+    <!-- 텍스트 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="텍스트 추출"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="진단서 속 질병명 가져오기"
+        android:textSize="13sp"
+        android:layout_marginStart="10dp" />
+</LinearLayout>
