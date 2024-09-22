@@ -14,6 +14,7 @@
 좀 더 상세히)
 #### 첫번째 지도 기능 )  현 위치를 gps 로 mylocation을 저장 -> Google Maps API 요청 + 해당 위치를 포함해서 URL 구성 -> 설정한 거리내(1km) 에 있음 마커 표시 
 
+
 #### 두번째 검색 기능 ) 검색하고 싶은 주소(위치 , ex 부산, 울산, 서울)을 입력하면 해당 되는 주소를 포함하고 있는 맞춤형 병원이 뜨게 합니다.
 editText로 location 입력값 받아오기 -> uri만들기 (ex- 해당 공공데이터의 제공되는 base api code + service key + &numOfRows=100 + &pageNo =1 ) 
 -> 가져온 xml 파일에서 파일의 tag가 <addr>…</addr> 일 경우 안에 addr 테그 안에 적혀 있는 내용에서 location을 포함하고 있으면 버퍼에 추가
@@ -28,6 +29,12 @@ editText로 location 입력값 받아오기 -> uri만들기 (ex- 해당 공공�
 검색 하고자 하는 질병명과 xml내의 질병명 이 일치시 나오게 한다. 
 몇회 선정인지를 담고 있는 tag 을 찾아 3이라면 나오게 한다. 
 
+![image](https://github.com/user-attachments/assets/db623dbb-def2-4610-9566-98705cf8cad0)
+
+![image](https://github.com/user-attachments/assets/45102ba9-1498-4970-8cbf-1c8d6745bcea)
+![image](https://github.com/user-attachments/assets/c0e421c2-6368-4a36-bda6-6bdc9839f132)
+![image](https://github.com/user-attachments/assets/893e31a9-26dd-4e6d-898e-75f46d5ffa75)
+![image](https://github.com/user-attachments/assets/6e5f67b1-09a7-40cf-b3a8-46d0627c85b4)
 
 ![image](https://github.com/user-attachments/assets/c4ea374e-0c7c-4c67-8f93-eeff15d4a483)
 팀프로젝트 : https://github.com/syoung01/MobileProgramming_TeamProject
