@@ -29,7 +29,7 @@ editText로 location 입력값 받아오기 -> uri만들기 (ex- 해당 공공�
 검색 하고자 하는 질병명과 xml내의 질병명 이 일치시 나오게 한다. 
 몇회 선정인지를 담고 있는 tag 을 찾아 3이라면 나오게 한다. 
 
-![image](https://github.com/user-attachments/assets/db623dbb-def2-4610-9566-98705cf8cad0)
+logo --> ![image](https://github.com/user-attachments/assets/db623dbb-def2-4610-9566-98705cf8cad0)
 
 ![image](https://github.com/user-attachments/assets/45102ba9-1498-4970-8cbf-1c8d6745bcea)
 ![image](https://github.com/user-attachments/assets/c0e421c2-6368-4a36-bda6-6bdc9839f132)
@@ -37,6 +37,6 @@ editText로 location 입력값 받아오기 -> uri만들기 (ex- 해당 공공�
 ![image](https://github.com/user-attachments/assets/6e5f67b1-09a7-40cf-b3a8-46d0627c85b4)
 ![image](https://github.com/user-attachments/assets/25a307ed-0a80-45bf-93b5-9c351fc7a319)
 
-![image](https://github.com/user-attachments/assets/c4ea374e-0c7c-4c67-8f93-eeff15d4a483)
+QR --> ![image](https://github.com/user-attachments/assets/c4ea374e-0c7c-4c67-8f93-eeff15d4a483)
 
 팀프로젝트 : https://github.com/syoung01/MobileProgramming_TeamProject
