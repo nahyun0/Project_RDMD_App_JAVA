@@ -35,6 +35,8 @@ editText로 location 입력값 받아오기 -> uri만들기 (ex- 해당 공공�
 ![image](https://github.com/user-attachments/assets/c0e421c2-6368-4a36-bda6-6bdc9839f132)
 ![image](https://github.com/user-attachments/assets/893e31a9-26dd-4e6d-898e-75f46d5ffa75)
 ![image](https://github.com/user-attachments/assets/6e5f67b1-09a7-40cf-b3a8-46d0627c85b4)
+![image](https://github.com/user-attachments/assets/25a307ed-0a80-45bf-93b5-9c351fc7a319)
 
 ![image](https://github.com/user-attachments/assets/c4ea374e-0c7c-4c67-8f93-eeff15d4a483)
+
 팀프로젝트 : https://github.com/syoung01/MobileProgramming_TeamProject
